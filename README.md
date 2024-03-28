@@ -78,8 +78,6 @@ This project is licensed under the terms of the GNU General Public License v3.0.
 
 Contributions are welcome! Please follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-# License
-This project is licensed under the terms of the GNU General Public License v3.0. You may review the full license [here](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 
 
