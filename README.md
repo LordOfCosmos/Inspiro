@@ -1,0 +1,105 @@
+# Inspiro
+
+Inspiro is a Node.js library for managing a collection of quotes, providing functionality to load, save, search, edit, and export quotes, as well as generate random quotes based on various criteria.
+
+# Installation
+You can install the package via npm:
+
+```bash
+npm install inspiro
+```
+
+# Usage
+
+```js
+Copy code
+const Inspiro = require('inspiro');
+
+// Create an instance of Inspiro
+const inspiro = new Inspiro();
+
+// Load quotes from file
+inspiro.loadQuotes();
+
+// Add a new quote
+const newQuote = {
+  text: "Your quote here",
+  author: "Author Name",
+  category: "Category Name"
+};
+inspiro.addQuote(newQuote);
+
+// Search quotes by keyword
+const results = inspiro.searchQuotes('keyword');
+
+// Edit a quote
+inspiro.editQuote('old text', 'new text');
+
+// Sort quotes by property
+const sortedQuotes = inspiro.sortQuotesBy('author');
+
+// Count total number of quotes
+const totalQuotes = inspiro.countQuotes();
+
+// Get unique authors and categories
+const uniqueAuthors = inspiro.getUniqueAuthors();
+const uniqueCategories = inspiro.getUniqueCategories();
+
+// Filter quotes by year or date added
+const quotesByYear = inspiro.filterQuotesByYear(2023);
+const quotesByDateAdded = inspiro.filterQuotesByDateAdded('2023/01/01');
+
+// Export quotes to JSON file
+inspiro.exportQuotesToJSON('exported-quotes', './exports');
+
+// Search quotes by length
+const quotesByLength = inspiro.searchQuotesByLength(20, 50);
+
+// Calculate average quote length
+const avgQuoteLength = inspiro.calculateAverageQuoteLength();
+
+// Get the longest and shortest quotes
+const longestQuote = inspiro.getLongestQuote();
+const shortestQuote = inspiro.getShortestQuote();
+
+// Generate a random quote
+const randomQuote = inspiro.getRandomQuote();
+const randomQuoteByAuthor = inspiro.getRandomQuoteByAuthor('Author Name');
+const randomQuoteByCategory = inspiro.getRandomQuoteByCategory('Category Name');
+```
+
+# Explanation
+
+`loadQuotes()`: Loads quotes from a JSON file.
+`addQuote(quote)`: Adds a new quote to the collection.
+`searchQuotes(keyword)`: Searches quotes by keyword in text, author, or category.
+`editQuote(oldText, newText)`: Edits a quote's text.
+`sortQuotesBy(property)`: Sorts quotes by a specified property (e.g., text, author, category).
+`countQuotes()`: Counts the total number of quotes.
+`getUniqueAuthors()`: Retrieves an array of unique authors.
+`getUniqueCategories()`: Retrieves an array of unique categories.
+`filterQuotesByYear(year)`: Filters quotes by the year they were added.
+`filterQuotesByDateAdded(date)`: Filters quotes by the date they were added.
+`exportQuotesToJSON(fileName, directoryPath)`: Exports quotes to a JSON file.
+`searchQuotesByLength(minLength, maxLength)`: Searches quotes by length range.
+`calculateAverageQuoteLength()`: Calculates the average length of quotes.
+`getLongestQuote()`: Retrieves the longest quote.
+`getShortestQuote()`: Retrieves the shortest quote.
+`getRandomQuote(format)`: Generates a random quote with optional format (text, author, category).
+`getRandomQuoteByAuthor(author, format)`: Generates a random quote by a specific author with optional format.
+`getRandomQuoteByCategory(category, format)`: Generates a random quote from a specific category with optional format.
+
+# Contributing
+
+Contributions are welcome! Please follow the guidelines outlined in the CONTRIBUTING.md file.
+
+# License
+This project is licensed under the terms of the GNU General Public License v3.0. You may review the full license here.
+
+Contributions are welcome! Please follow the guidelines outlined in the CONTRIBUTING.md file.
+
+# License
+This project is licensed under the terms of the GNU General Public License v3.0. You may review the full license [here](https://www.gnu.org/licenses/gpl-3.0.en.html).
+
+
+
