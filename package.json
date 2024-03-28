@@ -1,0 +1,30 @@
+{
+  "name": "inspiro",
+  "version": "0.0.3",
+  "description": "This module can create random quotes along with their authors.",
+  "main": "define.js",
+  "scripts": {
+    "test": "run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordOfCosmos/Inspiro.git"
+  },
+  "keywords": [
+    "inspiro",
+    "random",
+    "quotes"
+  ],
+  "author": "LordOfCosmos",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/LordOfCosmos/Inspiro/issues"
+  },
+  "homepage": "https://github.com/LordOfCosmos/Inspiro#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "inspiro": "^0.0.2"
+  }
+}
