@@ -2,7 +2,11 @@
 
 Inspiro is a Node.js library for managing a collection of quotes, providing functionality to load, save, search, edit, and export quotes, as well as generate random quotes based on various criteria.
 
-# Installation
+# Installation                                
+
+
+
+
 You can install the package via npm:
 
 ```bash
