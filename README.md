@@ -71,12 +71,12 @@ const randomQuoteByCategory = inspiro.getRandomQuoteByCategory('Category Name');
 
 # Contributing
 
-Contributions are welcome! Please follow the guidelines outlined in the CONTRIBUTING.md file.
+Contributions are welcome! Please follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 # License
-This project is licensed under the terms of the GNU General Public License v3.0. You may review the full license here.
+This project is licensed under the terms of the GNU General Public License v3.0. You may review the full license **[here]**(LICENSE).
 
-Contributions are welcome! Please follow the guidelines outlined in the CONTRIBUTING.md file.
+Contributions are welcome! Please follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 # License
 This project is licensed under the terms of the GNU General Public License v3.0. You may review the full license [here](https://www.gnu.org/licenses/gpl-3.0.en.html).
