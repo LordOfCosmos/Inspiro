@@ -68,26 +68,6 @@ const randomQuoteByAuthor = inspiro.getRandomQuoteByAuthor('Author Name');
 const randomQuoteByCategory = inspiro.getRandomQuoteByCategory('Category Name');
 ```
 
-# Explanation
-
-`loadQuotes()`: Loads quotes from a JSON file.
-`addQuote(quote)`: Adds a new quote to the collection.
-`searchQuotes(keyword)`: Searches quotes by keyword in text, author, or category.
-`editQuote(oldText, newText)`: Edits a quote's text.
-`sortQuotesBy(property)`: Sorts quotes by a specified property (e.g., text, author, category).
-`countQuotes()`: Counts the total number of quotes.
-`getUniqueAuthors()`: Retrieves an array of unique authors.
-`getUniqueCategories()`: Retrieves an array of unique categories.
-`filterQuotesByYear(year)`: Filters quotes by the year they were added.
-`filterQuotesByDateAdded(date)`: Filters quotes by the date they were added.
-`exportQuotesToJSON(fileName, directoryPath)`: Exports quotes to a JSON file.
-`searchQuotesByLength(minLength, maxLength)`: Searches quotes by length range.
-`calculateAverageQuoteLength()`: Calculates the average length of quotes.
-`getLongestQuote()`: Retrieves the longest quote.
-`getShortestQuote()`: Retrieves the shortest quote.
-`getRandomQuote(format)`: Generates a random quote with optional format (text, author, category).
-`getRandomQuoteByAuthor(author, format)`: Generates a random quote by a specific author with optional format.
-`getRandomQuoteByCategory(category, format)`: Generates a random quote from a specific category with optional format.
 
 # Contributing
 
